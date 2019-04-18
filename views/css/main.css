@@ -1,0 +1,48 @@
+ul.data {
+  width: 50%;
+  position: absolute;
+  left: 20%;
+  top:10%;
+  border-radius: 5px;
+  background-color:transparent;
+  border-color: #d6009f;
+}
+li.item{
+	 background-color:transparent;
+	 border: 0.1px solid #ff005e;
+	 padding:3px;
+	 font-size: 16px;
+	 color:white;
+}
+body{
+  background-image: url("../pics/prism.png");
+}
+label.txt{
+ position: absolute;
+ right: 5%;
+ top:90%;
+ display: inline-block;
+ color:white;
+ font-style: italic;
+}
+button.btn{
+  position: absolute;
+  right: 50%;
+  background-image:  linear-gradient(to left bottom, #3916de, #d6009f, #ff005e);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 53%;
+}
+strong.error{
+	font-size: 24px;
+	color: white;
+	position: absolute;
+	top:20%;
+	left: 15%;
+}

@@ -1,0 +1,60 @@
+
+input[type=text] {
+  position: absolute;
+  left: 8%;
+  top:30%;
+  background-repeat: no-repeat;
+  width:80%;
+  height: 10%;
+  border-radius: 5px;
+  border:1px solid #ff005e;
+  font-size:24px;
+  color:white;
+  background-color: transparent;
+  text-align: center; 
+}
+input[type=text]:focus {
+     box-shadow: 0px 0px 10px transparent;
+}
+::placeholder {
+  color: white;
+}
+#btn{
+	position: absolute;
+	left: 33%;
+	top:43%;
+	width:30%;
+	height: 7%;
+  background-image:  linear-gradient(to left bottom, #3916de, #d6009f, #ff005e);
+  border: none;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 3%;
+  border: 1px solid #d6009f;
+  border-radius: 3px;
+}
+body{
+	background-image: url("../pics/prism.png");
+	 background-color: #cccccc;
+}
+#label{
+ position: absolute;
+ left: 10%;
+ top:15%;
+ display: inline-block;
+ color:white;
+ font-style: italic;
+ font-size: 22px;
+}
+#server{
+ position: absolute;
+ right: 5%;
+ top:90%;
+ display: inline-block;
+ color:white;
+ font-style: italic;
+}

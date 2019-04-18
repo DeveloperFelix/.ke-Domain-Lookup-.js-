@@ -1,0 +1,17 @@
+html
+  head
+    link(type='text/css' rel='stylesheet' href='views/css/main.css')
+    block head
+
+a(href='/')
+   button(type='button' class='btn') Home    
+
+ul.data
+    for tmp in list.split('\n')
+        if tmp.length > 0
+            li.item=tmp
+        
+         
+     
+
+label.txt Server:whois.kenic.or.ke      

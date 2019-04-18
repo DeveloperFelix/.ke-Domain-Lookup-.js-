@@ -1,0 +1,51 @@
+
+#UI{
+  display: flex;
+  flex-direction: row;
+  padding-right: 5px;
+  background-color: transparent;
+}
+#productui{
+  display: flex;
+  flex-direction: column;
+  border: 0.2px solid grey;
+  background-color: white;
+
+}
+#product_img{
+ position: relative;
+ padding: 2px;
+ width:150px;
+ height:150px;
+}
+#_name{
+  position: relative;
+  left:25%;
+}
+#_price{
+  position: relative;
+  left:25%;
+  bottom: 2%;
+  font:italic bold 12px/12px Georgia, serif;
+}
+#line{
+  display: block;
+  width: 60%;
+  border-style: inset;
+
+}
+#btn{
+  width:70%;
+  position: relative;
+  left:15%;
+  bottom: 1%;
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+
+}

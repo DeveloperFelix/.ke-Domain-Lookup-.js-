@@ -1,0 +1,41 @@
+body{
+	 background-image: url("crossline-lines.png");
+	 background-color: #cccccc;
+}
+#main{
+    position: relative;
+    background-color: transparent;
+    top:3%;
+}
+#bar{
+  position: relative;
+  background-color: grey;
+  top: 0.5%;
+  height: 10%;	
+  border-radius: 10px;
+}
+#home_btn,#prod_btn,#contact_btn,#delivery_btn{
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 3%;
+}
+
+#mpesa_logo{
+	position: absolute;
+	top: 0.5%;
+	right: 5%;
+	border-radius: 5px;
+}
+#name{
+ color:white;
+ font-family:Bradley Hand,cursive;
+ font-size:40px;
+ padding-right: 2%;
+ font-style:italic;
+}
